@@ -1,0 +1,28 @@
+.wrapper{
+    background-image: url("https://raw.githubusercontent.com/sakalx/react-glitch-effect/master/example/src/static/img/main.jpg");
+    width: auto;
+    min-height: 100vh;
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    color : white;
+    font-size: 50px;
+    height: 650px;
+    font-weight: 800;
+}
+img{
+    height: 300px;
+    width: 220px;
+}
+button{
+    color: red;
+    font-size: 25px;
+    background: transparent;
+    border: 1px solid red;
+    padding: 10px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
